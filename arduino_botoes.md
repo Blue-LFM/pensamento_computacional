@@ -9,3 +9,102 @@ Quando o botão 3 for apertado, os dois portões se abrem. Nesse caso, o LED azu
 
 Quando o botão 4 for apertado, os dois servo-motores se fecham, e ambos os lados acendem o LED vermelho.
 <img width="1391" height="700" alt="image" src="https://github.com/user-attachments/assets/1aaff1ef-60be-475a-b732-773e162fc9f2" />
+
+```bash
+// C++ code
+//
+#include <Servo.h>
+
+int botao1 = 0;
+
+int botao2 = 0;
+
+int botao3 = 0;
+
+int botao4 = 0;
+
+int esq = 0;
+
+int dir = 0;
+
+Servo servo_A2;
+
+Servo servo_A4;
+
+void setup()
+{
+  servo_A2.attach(A2, 500, 2500);
+  servo_A4.attach(A4, 500, 2500);
+  pinMode(10, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(2, INPUT);
+  pinMode(9, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(7, INPUT);
+  pinMode(11, OUTPUT);
+  pinMode(8, INPUT);
+  pinMode(12, INPUT);
+
+  servo_A2.write(0);
+  servo_A4.write(0);
+  digitalWrite(10, HIGH);
+  digitalWrite(3, HIGH);
+}
+
+void loop()
+{
+  botao1 = digitalRead(2);
+  if (botao1 == HIGH) {
+    digitalWrite(3, LOW);
+    digitalWrite(9, LOW);
+    digitalWrite(6, HIGH);
+    servo_A2.write(90);
+    delay(1000); // Wait for 1000 millisecond(s)
+    digitalWrite(6, LOW);
+    digitalWrite(5, HIGH);
+    esq += 1;
+  }
+  botao2 = digitalRead(7);
+  if (botao2 == HIGH) {
+    digitalWrite(10, LOW);
+    digitalWrite(9, LOW);
+    digitalWrite(6, HIGH);
+    servo_A4.write(90);
+    delay(1000); // Wait for 1000 millisecond(s)
+    digitalWrite(6, LOW);
+    digitalWrite(11, HIGH);
+    dir += 1;
+  }
+  if (esq == 1 && dir == 1) {
+    digitalWrite(9, HIGH);
+  }
+  botao3 = digitalRead(8);
+  if (botao3 == HIGH) {
+    digitalWrite(6, HIGH);
+    digitalWrite(3, LOW);
+    digitalWrite(10, LOW);
+    servo_A2.write(90);
+    servo_A4.write(90);
+    delay(1000); // Wait for 1000 millisecond(s)
+    digitalWrite(6, LOW);
+    digitalWrite(11, HIGH);
+    digitalWrite(5, HIGH);
+    digitalWrite(9, HIGH);
+  }
+  botao4 = digitalRead(12);
+  if (botao4 == HIGH) {
+    digitalWrite(6, HIGH);
+    digitalWrite(5, LOW);
+    digitalWrite(11, LOW);
+    digitalWrite(9, LOW);
+    servo_A2.write(0);
+    servo_A4.write(0);
+    delay(1000); // Wait for 1000 millisecond(s)
+    digitalWrite(6, LOW);
+    digitalWrite(3, HIGH);
+    digitalWrite(10, HIGH);
+    dir += (dir - 2);
+    esq += (esq - 2);
+  }
+}
