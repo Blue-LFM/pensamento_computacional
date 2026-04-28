@@ -111,7 +111,7 @@ void loop()
     esq += (esq - 2);
   }
 }
-```bash
+bash```
 Códigoem blocos:
 
 <p align="center">
