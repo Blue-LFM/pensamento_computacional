@@ -109,3 +109,10 @@ void loop()
     esq += (esq - 2);
   }
 }
+
+Códigoem blocos:
+
+<p align="center">
+  <img src="codigo arduino-parte1.png" width="50%">
+</p>
+
