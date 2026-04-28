@@ -30,6 +30,7 @@ Quando o portão é aberto, a variável em questão recebe 1, quando é fechado,
 
 <img width="1391" height="700" alt="image" src="https://github.com/user-attachments/assets/1aaff1ef-60be-475a-b732-773e162fc9f2" />
 
+
 Código em blocos:
 
 <p align="center">
