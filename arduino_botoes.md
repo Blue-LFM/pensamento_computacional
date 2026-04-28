@@ -14,7 +14,7 @@ Quando o botão 4 for apertado, os dois servo-motores se fecham, e ambos os lado
 Código em blocos:
 
 <p align="center">
-  <img src="codigo arduino-parte1.png" width="50%">
+  <img src="codigo-arduino-parte1.png" width="50%">
 </p>
 
 
