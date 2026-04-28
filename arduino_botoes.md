@@ -35,7 +35,7 @@ Na parte do código, criei 4 variáveis para os 4 botões.
 Além disso, criei outras duas variáveis para armazenar um número, que representa se o portão está aberto ou não.
 Quando o portão é aberto, a variável em questão recebe 1, quando é fechado, a variável volta a ser 0.
 
-
+Link do projeto : https://www.tinkercad.com/things/3mGVzKW7o4E-fantabulous-gogo-inari/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fall
 
 <img width="1391" height="700" alt="image" src="https://github.com/user-attachments/assets/1aaff1ef-60be-475a-b732-773e162fc9f2" />
 
