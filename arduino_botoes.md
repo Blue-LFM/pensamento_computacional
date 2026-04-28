@@ -111,8 +111,12 @@ void loop()
     esq += (esq - 2);
   }
 }
-bash```
-Códigoem blocos:
+
+bash´´´
+
+
+
+Código em blocos:
 
 <p align="center">
   <img src="codigo arduino-parte1.png" width="50%">
