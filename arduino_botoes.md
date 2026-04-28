@@ -8,3 +8,4 @@ Se apenas um lado do portão estiver aberto, o LED amarelo ficará aceso.
 Quando o botão 3 for apertado, os dois portões se abrem. Nesse caso, o LED azul acende, indicando portão totalmente aberto.
 
 Quando o botão 4 for apertado, os dois servo-motores se fecham, e ambos os lados acendem o LED vermelho.
+<img width="1391" height="700" alt="image" src="https://github.com/user-attachments/assets/1aaff1ef-60be-475a-b732-773e162fc9f2" />
