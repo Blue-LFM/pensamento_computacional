@@ -31,6 +31,7 @@ Código em blocos:
 
 
 
+Código em texto:
 
 ```bash
 // C++ code
