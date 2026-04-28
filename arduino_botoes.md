@@ -1,12 +1,31 @@
-O sistema deve possuir 2 servo-motores, 6 LEDs e 4 botões.
-Quando o botão 1 for apertado, apenas o servo-motor do lado esquerdo deve abrir. Ao mesmo tempo, o LED verde desse lado deve acender. Quando o servo-motor estiver fechado, o LED vermelho deve estar aceso.
-Quando o botão 2 for apertado, apenas o servo-motor do lado direito deve abrir. Ao mesmo tempo, o LED verde desse lado deve acender. Quando o servo-motor estiver fechado, o LED vermelho deve estar aceso.
+O sistema deve possuir 2 servo motores, 6 LEDs e 4 botões.
 
-Quando o servo-motor de qualquer um dos lados estiver em movimento, o LED amarelo deve acender.
+Quando o botão 1 for apertado, apenas o servo motor do lado esquerdo deve abrir. Ao mesmo tempo, o LED verde desse lado deve acender. Quando o servo motor estiver fechado, o LED vermelho deve estar aceso.
+
+Quando o botão 2 for apertado, apenas o servo motor do lado direito deve abrir. Ao mesmo tempo, o LED verde desse lado deve acender. Quando o servo motor estiver fechado, o LED vermelho deve estar aceso.
+
+Quando o servo motor de qualquer um dos lados estiver em movimento, o LED amarelo deve acender.
 
 Quando o botão 3 for apertado, os dois portões se abrem. Nesse caso, o LED azul acende, indicando portão totalmente aberto.
+Se esse botão não for pressionado, e os dois portões estiverem abertos, o LED azul irá se acender também.
 
-Quando o botão 4 for apertado, os dois servo-motores se fecham, e ambos os lados acendem o LED vermelho. Todos os LEDs além dos vermelhos se apagam.
+Quando o botão 4 for apertado, os dois servo motores se fecham, e ambos os lados acendem o LED vermelho. Todos os LEDs além dos vermelhos se apagam.
+
+Lista de passos:
+Primeiro, conectei os leds e os botões.
+Após conectei os servo motores. O pino de 5V foi usado para conectar ambos os servo motores, assim como os quatro botões.
+Os LEDs foram conectador na seguinte ordem:
+Vermelho esquerdo = pino 3
+Verde esquerdo = pino 5
+Amarelo = pino 6
+Azul = pino 9
+Vermelho direito = pino 10
+Verde direito = pino 11
+
+Na parte do código, criei 4 variáveis para os 4 botões.
+Além disso, criei outras duas variáveis para armazenar um número, que representa se o portão está aberto ou não.
+Quando o portão é aberto, a variável em questão recebe 1, quando é fechado, a variável volta a ser 0.
+
 
 
 <img width="1391" height="700" alt="image" src="https://github.com/user-attachments/assets/1aaff1ef-60be-475a-b732-773e162fc9f2" />
