@@ -11,6 +11,8 @@ Quando o botão 4 for apertado, os dois servo-motores se fecham, e ambos os lado
 
 <img width="1391" height="700" alt="image" src="https://github.com/user-attachments/assets/1aaff1ef-60be-475a-b732-773e162fc9f2" />
 
+
+
 ```bash
 // C++ code
 //
@@ -109,7 +111,7 @@ void loop()
     esq += (esq - 2);
   }
 }
-''' bash
+```bash
 Códigoem blocos:
 
 <p align="center">
