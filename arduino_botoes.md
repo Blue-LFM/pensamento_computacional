@@ -16,6 +16,19 @@ Código em blocos:
 <p align="center">
   <img src="codigo-arduino-parte1.png" width="50%">
 </p>
+<p align="center">
+  <img src="codigo-arduino-parte2.png" width="50%">
+</p>
+<p align="center">
+  <img src="codigo-arduino-parte3.png" width="50%">
+</p>
+<p align="center">
+  <img src="codigo-arduino-parte4.png" width="50%">
+</p>
+<p align="center">
+  <img src="codigo-arduino-parte5.png" width="50%">
+</p>
+
 
 
 
