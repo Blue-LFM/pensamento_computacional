@@ -12,14 +12,23 @@ Se esse botão não for pressionado, e os dois portões estiverem abertos, o LED
 Quando o botão 4 for apertado, os dois servo motores se fecham, e ambos os lados acendem o LED vermelho. Todos os LEDs além dos vermelhos se apagam.
 
 Lista de passos:
+
 Primeiro, conectei os leds e os botões.
+
 Após conectei os servo motores. O pino de 5V foi usado para conectar ambos os servo motores, assim como os quatro botões.
+
 Os LEDs foram conectador na seguinte ordem:
+
 Vermelho esquerdo = pino 3
+
 Verde esquerdo = pino 5
+
 Amarelo = pino 6
+
 Azul = pino 9
+
 Vermelho direito = pino 10
+
 Verde direito = pino 11
 
 Na parte do código, criei 4 variáveis para os 4 botões.
