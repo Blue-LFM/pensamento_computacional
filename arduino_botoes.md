@@ -11,6 +11,12 @@ Quando o botão 4 for apertado, os dois servo-motores se fecham, e ambos os lado
 
 <img width="1391" height="700" alt="image" src="https://github.com/user-attachments/assets/1aaff1ef-60be-475a-b732-773e162fc9f2" />
 
+Código em blocos:
+
+<p align="center">
+  <img src="codigo arduino-parte1.png" width="50%">
+</p>
+
 
 
 ```bash
@@ -112,13 +118,5 @@ void loop()
   }
 }
 
-bash´´´
 
-
-
-Código em blocos:
-
-<p align="center">
-  <img src="codigo arduino-parte1.png" width="50%">
-</p>
 
