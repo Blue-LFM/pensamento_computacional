@@ -58,7 +58,7 @@ Código em blocos:
   <img src="codigo-arduino-parte5.png" width="50%">
 </p>
 
-
+link do projeto : https://www.tinkercad.com/things/3mGVzKW7o4E-fantabulous-gogo-inari/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fall
 
 Código em texto:
 
